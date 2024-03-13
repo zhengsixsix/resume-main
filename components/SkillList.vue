@@ -43,7 +43,7 @@
     </ul>
   </div>
 </template>
-<script setup lang="ts"></script>
+<script setup></script>
 <style lang="scss" scoped>
 span.mx-1 {
   margin: 0 0.25rem /* 4px */;

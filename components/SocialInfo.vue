@@ -7,7 +7,7 @@
     </div>
   </div>
 </template>
-<script setup lang="ts">
+<script setup>
 const dataLst = [
   { name: "GitHub", link: "https://github.com/zhengsixsix" },
   { name: "掘金", link: "https://juejin.cn/user/1201089584303517/posts" },

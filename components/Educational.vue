@@ -15,7 +15,7 @@
     </div>
   </div>
 </template>
-<script setup lang="ts">
+<script setup>
 const universityList = [
   {
     name: "荆州理工职业学院",

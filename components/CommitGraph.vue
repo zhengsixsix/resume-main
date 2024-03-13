@@ -327,7 +327,7 @@
     </div>
   </div>
 </template>
-<script setup lang="ts"></script>
+<script setup></script>
 <style lang="scss" scoped>
 .container {
   border: 1px solid rgb(208, 215, 222);

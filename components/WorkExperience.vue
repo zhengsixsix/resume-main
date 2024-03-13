@@ -22,7 +22,7 @@
     </div>
   </div>
 </template>
-<script setup lang="ts">
+<script setup>
 const workList = [
   {
     name: "武汉智慧畅享科技有限公司",
