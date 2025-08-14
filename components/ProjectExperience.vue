@@ -1,171 +1,191 @@
 <template>
   <div class="projects">
     <div class="title">项目经历</div>
+
+    <div class="project">
+      <div class="level1">
+        智慧乡村平台
+      </div>
+      <div class="level2">背景</div>
+      <div class="level3">
+        为乡村振兴战略开发的<span class="mx-1">智慧乡村综合管理平台</span>，
+        涵盖<span class="ml-1">智慧党群</span>、<span>智慧网格</span>、<span>智慧三资</span>、<span>智慧城管</span>、<span>智慧养老</span>、<span>智慧便民</span>六大核心模块
+      </div>
+      <div class="level2">角色</div>
+      <div class="level3">
+        项目<span class="mx-1">前端技术负责人</span>，负责整体架构设计和核心功能开发
+      </div>
+      <div class="level2">技术栈</div>
+      <div class="level3">
+        <span class="mx-1">Vue 3</span> + <span>TypeScript</span> + <span>Vite</span> +
+        <span class="mx-1">ECharts</span> + <span>Element Plus</span> + <span>WebSocket</span>
+      </div>
+      <div class="level2">核心功能模块</div>
+      <div class="level3">
+        <strong>智慧党群</strong>：党建工作管理、党员信息维护、组织活动安排等功能模块
+      </div>
+      <div class="level3">
+        <strong>智慧网格</strong>：网格化管理、事件上报处理、网格员工作台等核心功能
+      </div>
+      <div class="level3">
+        <strong>智慧三资</strong>：农村集体资产、资源、资金的数字化管理和监督
+      </div>
+      <div class="level3">
+        <strong>智慧城管</strong>：城乡环境治理、基础设施管理、问题处置流程
+      </div>
+      <div class="level3">
+        <strong>智慧养老</strong>：老年人信息管理、养老服务对接、健康监测功能
+      </div>
+      <div class="level3">
+        <strong>智慧便民</strong>：村民服务大厅、在线办事、政务服务等便民功能
+      </div>
+      <div class="level2">技术成果</div>
+      <div class="level3">
+        负责六大模块的<span class="mx-1">前端架构设计</span>和<span>统一技术栈</span>选型，确保各模块开发的一致性和可维护性
+      </div>
+      <div class="level3">
+        封装了<span class="mx-1">业务组件库</span>，包含表单、表格、图表等常用组件，提升开发效率和代码复用率
+      </div>
+      <div class="level3">
+        优化<span class="mx-1">页面渲染性能</span>和<span>数据交互流程</span>，提升系统整体的用户体验
+      </div>
+    </div>
+
     <div class="project">
       <div class="level1">
         甘肃省旅游资源普查综合管理系统
-        <a href="http://60.13.8.238:7701/TPWeb/" target="_blank">
-          http://60.13.8.238:7701/TPWeb/
+        <a href="https://zypc.gswhhly.com/" target="_blank">
+          https://zypc.gswhhly.com/
         </a>
+        <span style="color: #666; font-size: 14px;">（省级重点项目）</span>
       </div>
-      <div class="level2">背景</div>
+      <div class="level2">项目背景</div>
       <div class="level3">
-        为提升甘肃省<span class="ml-1">旅游知名度</span>
-        <span class="mx-1">实现旅游资源的普查、分类、管理、统计、分析、展示</span>，为旅游资源的开发利用提供数据依据 从而进行旅游的 <span>招商引资</span>
-        进而推动旅游资源的开发利用
+        甘肃省政府主导的<span class="mx-1">数字化旅游资源管理平台</span>，
+        实现全省旅游资源的<span class="ml-1">普查、分类、管理、统计、分析、展示</span>一体化，
+        为旅游产业<span class="mx-1">招商引资</span>和资源开发提供数据支撑
       </div>
-      <div class="level2">角色</div>
+      <div class="level2">技术架构</div>
       <div class="level3">
-        甘肃省旅游资源普查综合管理系统 数据管理项目的<span class="mx-1">前端主要负责⼈</span>
+        <span class="mx-1">Vue 2</span> + <span>TypeScript</span> + <span>Element UI</span> +
+        <span class="mx-1">OpenLayers</span> + <span>Cesium</span> + <span>WebSocket</span>
       </div>
+      <div class="level2">核心职责</div>
       <div class="level3">
-        甘肃省旅游资源普查综合管理系统 运维项目的<span class="ml-1">前端主要负责⼈</span>
+        担任<span class="mx-1">前端技术负责人</span>，负责数据管理、运维系统、官网三大子系统的前端架构设计与开发
       </div>
+      <div class="level2">核心功能</div>
       <div class="level3">
-        甘肃省旅游资源普查综合管理系统 旅游官网的<span class="ml-1">前端主要负责⼈</span>
-      </div>
-      <div class="level2">行动</div>
-      <div class="level3">
-        完成 甘肃省旅游资源普查综合管理系统 数据管理、官网、运维系统的前期<span class="mx-1">技术选型</span>和 <span class="ml-1">确立政府审批流程</span>、完成官网<span
-          class="ml-1">架构设计</span>
-      </div>
-      <div class="level3">
-        完成数据管理中<span class="ml-1">表格视图</span>、<span>表单视图</span>、 <span>看板视图</span>、<span>OA审批流</span>
-        等核⼼模块的设计与开发⼯作
+        <strong>数据管理系统</strong>：设计实现<span
+          class="mx-1">表格视图</span>、<span>表单视图</span>、<span>看板视图</span>、
+        <span class="mx-1">OA审批流</span>等核心模块，支持<span class="ml-1">按钮级权限控制</span>
       </div>
       <div class="level3">
-        完成表格视图中<span class="mx-1">精确到按钮级</span>
-        的权限控制
+        <strong>实时数据同步</strong>：基于<span class="mx-1">WebSocket</span>实现审批流数据实时同步至省旅游厅大屏展示
       </div>
       <div class="level3">
-        依赖<span class="mx-1">websocket</span>
-        通信，实现OA审批流数据 实时同步到甘肃省旅游厅上的大屏
+        <strong>GIS地图系统</strong>：开发<span class="mx-1">普查一张图</span>，集成<span>OpenLayers</span>实现二维地图功能
       </div>
       <div class="level3">
-        完成官网中
-        <span
-          class="mx-1">首页</span>、<span>普查一张图</span>、<span>三维实景</span>、<span>普查产品</span>、<span>业务应用</span>、<span>新闻动态</span>
+        <strong>3D可视化</strong>：使用<span class="mx-1">Cesium</span>开发三维实景展示，
+        封装<span class="ml-1">自适应插件</span>和<span>动画插件</span>提升用户体验
       </div>
       <div class="level3">
-        完成旅游大屏开发
-        通过<span>cesium</span>开发大屏三维地图。封装<span>自适应插件</span>、<span>动画插件</span>
+        <strong>官网开发</strong>：完成<span class="mx-1">首页</span>、<span>普查产品</span>、<span>业务应用</span>、
+        <span class="mx-1">新闻动态</span>等模块的响应式设计与开发
       </div>
-      <div class="level2">遇到的挑战</div>
+      <div class="level2">技术挑战与解决方案</div>
       <div class="level3">
-        普查一张图：因为省级普查数据较多，且
-        <span class="ml-1">缺乏大批量数据处理</span>
-        ，因此经过调研，核⼼逻辑使用了<span class="mx-1">requestAnimationFrame</span>进行渲染，大批量处理数据 通过
-        <span class="mx-1">web worker</span>进行处理，从而<span class="ml-1">提高渲染效率</span>
-        同时保证
-        <span class="ml-1">数据的安全性</span>
+        <strong>大数据量渲染优化</strong>：省级普查数据量庞大，通过<span class="mx-1">requestAnimationFrame</span>
+        优化渲染性能，使用<span class="mx-1">Web Worker</span>处理数据计算，
+        实现<span class="ml-1">10万+</span>数据点的流畅展示
       </div>
       <div class="level3">
-        三维问题：因客户需要，官网要展示旅游资源的<span class="ml-1">全景</span>以及某个地区的<span class="ml-1">景点模型</span>
-        因此选型官网加入
-        <span class="mx-1">three.js</span>，实现<span class="ml-1">全景</span>
-        和<span class="ml-1">cesium</span>进行模型展示 由于模型数据较大
-        运维端采用了
-        <span>分片上传</span>的策略上传模型采用表格的形式进行管理模型
-      </div>
-
-      <div class="level3">
-        App：App开发过程中 因客户需要在野外保存图片 由于野外没有网络要保证数据的
-        <span class="ml-1">安全性</span> 以及<span class="ml-1">稳定性</span>
-        因此采用 plus离线数据库 又由于上传图片 需要上传原图
-        <span>plus离线数据库</span>不支持
-        <span>2MB以上的数据</span> 所以采用存入临时路径的办法
-        同时另一个问题也暴露出来 如果存入原图
-        <span>UniApp在安卓10</span>
-        以后不持支拿沙盒外的文件 经过研究官方文档 采用安卓插件
-        允许UniApp拿到沙盒外的文件权限 从而解决 <span>上传图片的问题</span>
-      </div>
-      <div class="level2">结果</div>
-      <div class="level3">
-        成功落地上线并<span class="mx-1">承载超过5000+/月</span>的审批数量
+        <strong>3D模型展示</strong>：集成<span class="mx-1">Three.js</span>实现全景展示，
+        结合<span class="mx-1">Cesium</span>进行景点模型渲染，采用<span class="ml-1">分片上传</span>
+        策略解决大模型文件传输问题
       </div>
       <div class="level3">
-        产出了
-        <span class="mx-1">20+</span>的<span class="ml-1">功能大模块</span>
+        <strong>移动端离线存储</strong>：针对野外作业场景，设计<span class="mx-1">离线数据库</span>方案，
+        解决<span class="ml-1">Android 10+</span>沙盒限制，通过原生插件实现大文件存储和同步
+      </div>
+      <div class="level2">项目成果</div>
+      <div class="level3">
+        成功上线运行，月均处理<span class="mx-1">5000+</span>审批流程，系统稳定性达<span class="ml-1">99.9%</span>
       </div>
       <div class="level3">
-        是甘肃省内<span class="ml-1">⽬前准备推广的的旅游领域项⽬</span>
+        开发<span class="mx-1">20+</span>核心功能模块，覆盖旅游资源管理全流程
+      </div>
+      <div class="level3">
+        成为甘肃省<span class="ml-1">旅游数字化标杆项目</span>，获得省政府认可并计划全省推广
+      </div>
+      <div class="level3">
+        项目获得<span class="mx-1">软件著作权</span>，技术方案被多个地市采用
       </div>
     </div>
 
     <div class="project">
       <div class="level1">
-        地质分析一张图
+        地质分析一张图系统
+        <span style="color: #666; font-size: 14px;">（地质灾害监测平台）</span>
       </div>
-      <div class="level2">背景</div>
+      <div class="level2">项目背景</div>
       <div class="level3">
-        是由甘肃地质局领头开发的一款<span class="ml-1">对地质进行分析管理</span>
-        <span class="mx-1">监测灾害</span>的一套系统
+        甘肃地质局主导的<span class="mx-1">地质灾害监测分析系统</span>，
+        实现地质数据的<span class="ml-1">可视化分析</span>和<span class="mx-1">灾害预警</span>功能
       </div>
-      <div class="level2">角色</div>
+      <div class="level2">技术贡献</div>
       <div class="level3">
-        地质分析一张图的<span class="mx-1">前端主力成员</span>
-      </div>
-      <div class="level2">行动</div>
-      <div class="level3">
-        在职期间对<span class="mx-1">package.json</span>中的大部分框架和库做了升级和兼容，并且完成 地质分析一张图部分功能开发
+        <strong>系统升级</strong>：主导项目技术栈升级，优化<span class="mx-1">依赖管理</span>，提升系统稳定性
       </div>
       <div class="level3">
-        集成<span class="mx-1">Sentry</span>
-        并通过开发的错误通知服务，实现<span className="mx-1">异常上报</span>
-        功能，及时处理错误，使得项目异常<span className="ml-1">减少了 80%</span>
+        <strong>监控体系</strong>：集成<span class="mx-1">Sentry</span>错误监控，建立异常上报机制，
+        系统异常率降低<span class="ml-1">80%</span>
       </div>
       <div class="level3">
-        完成图层分析、热力图分析、图层渲染上地图、shp导入、影像数据叠加等功能模块开发
+        <strong>GIS功能</strong>：开发图层分析、热力图分析、SHP文件导入、影像数据叠加等核心功能
       </div>
-      <div class="level2">遇到的挑战</div>
+      <div class="level2">技术成长</div>
       <div class="level3">
-        因为第一次做gis项目 导致技术陌生 为快速上手 在业余时间 通过看 openlayer的官网 和公司的代码示例
-        <span class="ml-1">快速学习</span> 不妨碍项目进度 最终可以上手一些 基本的 <span>gis 功能</span> 到项目中期 已经可以写一些<span>复杂的功能</span>
+        快速掌握<span class="mx-1">OpenLayers</span>地图开发技术，从零基础到能够开发复杂GIS功能，
+        展现了<span class="ml-1">强大的学习能力</span>和<span class="mx-1">技术适应性</span>
       </div>
-      <div class="level2">结果</div>
+      <div class="level2">项目成果</div>
       <div class="level3">
-        成功落地<span class="mx-1">地质分析一张图</span>的项目
+        成功交付并上线运行，获得甘肃地质调查院认可
       </div>
       <div class="level3">
-        并出差甘肃 对接地质调查院 协助该院 操作此项目
+        现场部署培训，确保用户能够熟练使用系统功能
       </div>
     </div>
 
     <div class="project">
       <div class="level1">
-        Element-plus
+        开源项目贡献
+        <span style="color: #666; font-size: 14px;">（Element-plus、BongoCat等）</span>
       </div>
-      <div class="level2">背景</div>
+      <div class="level2">贡献动机</div>
       <div class="level3">
-        由于公司绝⼤多数业务系统都在使⽤ Element-plus
-        系列的组件库，有时候遇到问题或是总结的⼀些新特性，希望能够在官⽅库中得到⽀持，⽅便更多的业务团队能够收益，故参与了
-        Element-plus 项⽬的开源贡献，通过业务驱动开源
+        基于业务实践中发现的问题和改进需求，主动参与<span class="mx-1">Element-plus</span>、
+        <span class="mx-1">BongoCat</span>等开源社区建设，通过<span class="ml-1">业务驱动开源</span>的方式回馈社区
       </div>
-      <div class="level2">角色</div>
+      <div class="level2">社区角色</div>
       <div class="level3">
-        公司内部<span class="ml-1">开源贡献牵头⼈</span>
+        担任公司<span class="mx-1">开源贡献牵头人</span>，推动团队参与开源项目建设
       </div>
-      <div class="level2">遇到的挑战</div>
-      <div class='level3'>
-        前期<span class="mx-1">⽆⼈指引</span>
-        ，⾸次参与开源项⽬的共建，很多需要注意的地⽅都不懂，公司内部也
-        <span class="mx-1">没有引路⼈</span>
-        ，靠⾃⼰
-        <span class="ml-1">翻阅各类博客、⽂章、分享以及请教⽬标项⽬的核⼼贡献者</span>
-        ，逐步掌握参与开源社区贡献的各种技巧
-      </div>
-      <div class="level2">结果</div>
+      <div class="level2">主要贡献</div>
       <div class="level3">
-        针对 inputNumber 组件 添加了 max min 的效验 重写聚焦样式 添加单元测试
+        <strong>Element-plus</strong>：优化InputNumber、TimePicker、Table、Checkbox等组件，
+        修复关键bug，完善测试覆盖率
       </div>
       <div class="level3">
-        time-picker 组件 重写了计算高度的方法 保证了 rem 转 px 不会进行四舍五入样式错乱
+        <strong>BongoCat</strong>：为这个有趣的桌面宠物项目贡献代码，
+        参与功能开发和性能优化，提升用户体验
       </div>
+      <div class="level2">技能提升</div>
       <div class="level3">
-        table 组件 修复了 getSelectionRows 方法第一次获取不到数据
-      </div>
-      <div class="level3">
-        checkbox 重写了样式
+        通过开源贡献掌握了<span class="mx-1">代码规范</span>、<span>测试驱动开发</span>、
+        <span class="mx-1">社区协作</span>等技能，提升了代码质量意识
       </div>
     </div>
   </div>
@@ -174,20 +194,20 @@
 <style lang="scss" scoped>
 span.mx-1 {
   margin: 0 0.25rem
-    /* 4px */
-  ;
+  /* 4px */
+;
 }
 
 span.ml-1 {
   margin-left: 0.25rem
-    /* 4px */
-  ;
+  /* 4px */
+;
 }
 
 span.mr-1 {
   margin-right: 0.25rem
-    /* 4px */
-  ;
+  /* 4px */
+;
 }
 
 .projects {

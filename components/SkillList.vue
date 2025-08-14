@@ -3,32 +3,29 @@
     <div class="title">相关技能</div>
     <ul>
       <li>
-        活跃于<span class="mx-1">GitHub</span>开源社区，给
-        <span class="ml-1">element-plus</span>、<span class="mr-1">xijs</span>
-        等众多开源库贡献过 PR
+        <strong>前端框架</strong>：精通<span class="mx-1">Vue 2/3</span>全家桶（Vue Router、Vuex/Pinia、Vue CLI/Vite），
+        熟练使用<span class="ml-1">TypeScript</span>进行类型安全开发，具备<span class="mx-1">3年+</span>Vue + TS 实战经验
       </li>
       <li>
-        熟悉<span class="mx-1">Vue</span>及其周边生态，熟悉<span class="ml-1"
-          >TypeScript</span
-        >，拥有丰富的
-        <span class="mx-1">Vue + TS</span>
-        实战经验
-      </li>
-      <li>能够使用<span class="mx-1">uni-app</span>进行跨端开发</li>
-      <li>
-        熟悉<span>gis</span>开发框架，如<span class="mx-1">open layer</span
-        >、<span class="mx-1">cesium</span>，能够使用其对二维、三维地图进行开发
+        <strong>跨端开发</strong>：熟练使用<span class="mx-1">uni-app</span>进行小程序、H5、App跨端开发，
+        了解<span class="ml-1">React Native</span>、<span>Flutter</span>等跨端技术
       </li>
       <li>
-        熟悉前端性能优化的实现，例如<span class="ml-1">代码优化</span>、<span
-          >打包优化</span
-        >
-        、<span>资源优化</span>，能结合实际业务场景进行优化
+        <strong>地图开发</strong>：精通<span class="mx-1">OpenLayers</span>、<span class="mx-1">Cesium</span>等GIS框架，
+        具备二维、三维地图应用开发经验，熟悉地理信息系统业务场景
       </li>
       <li>
-        熟悉<span class="mx-1">webpack / vite</span>等打包工具的基本配置，
-        能够对以上工具进行
-        <span class="ml-1">二次封装</span>、基于以上工具搭建通用的开发环境
+        <strong>性能优化</strong>：具备丰富的前端性能优化经验，包括<span class="ml-1">代码分割</span>、
+        <span>懒加载</span>、<span>缓存策略</span>、<span>打包优化</span>等，能够针对具体业务场景制定优化方案
+      </li>
+      <li>
+        <strong>工程化</strong>：熟练掌握<span class="mx-1">Webpack</span>、<span class="mx-1">Vite</span>等构建工具，
+        能够进行<span class="ml-1">脚手架开发</span>、<span>CI/CD配置</span>，搭建标准化开发环境
+      </li>
+      <li>
+        <strong>开源贡献</strong>：活跃于<span class="mx-1">GitHub</span>开源社区，为
+        <span class="ml-1">Element-plus</span>、<span class="mr-1">xijs</span>、<span class="mr-1">BongoCat</span>等知名项目贡献代码，
+        具备良好的代码规范和协作能力
       </li>
       <li>
         熟悉<span class="mx-1">prettier / eslint</span

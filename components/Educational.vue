@@ -11,6 +11,9 @@
           <div>{{ item.major }}</div>
           <div>{{ item.level }}</div>
         </div>
+        <div class="row3" v-if="item.description">
+          {{ item.description }}
+        </div>
       </div>
     </div>
   </div>
@@ -19,9 +22,17 @@
 const universityList = [
   {
     name: "荆州理工职业学院",
-    major: "电子商务技术",
-    level: "大专",
+    major: "电子商务技术专业",
+    level: "专科",
     time: "2020/09 - 2023/06",
+    description: "在校期间自学前端开发技术，通过大量实践项目积累编程经验"
+  },
+  {
+    name: "持续学习与技能提升",
+    major: "前端开发技术栈",
+    level: "自学",
+    time: "2021 - 至今",
+    description: "通过技术博客、开源项目、在线课程等方式持续学习新技术，保持技术敏感度"
   },
 ];
 </script>
@@ -69,6 +80,15 @@ const universityList = [
       font-size: 14px;
       font-weight: 400;
       line-height: 24px;
+    }
+    .row3 {
+      color: #666;
+      width: 100%;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-top: 4px;
+      font-style: italic;
     }
   }
 }

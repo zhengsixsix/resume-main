@@ -1,7 +1,7 @@
 <template>
   <div class="info">
     <div class="title">郑俊玺</div>
-    <div class="titleSub">前端开发 / 开源爱好者 / 2年经验</div>
+    <div class="titleSub">前端开发 / 开源爱好者 / 3年经验</div>
     <div class="contact">
       <div class="item">
         <PhoneOutlined />
