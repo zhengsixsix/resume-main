@@ -1,0 +1,58 @@
+@import './variables';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  background-color: $bg-color;
+  color: $text-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  transition: color 0.2s;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Utility classes */
+.text-primary { color: $primary-color; }
+.text-highlight { color: $highlight-color; }
+.mx-1 { margin: 0 0.25rem; }
+.ml-1 { margin-left: 0.25rem; }
+.mr-1 { margin-right: 0.25rem; }
+.mb-1 { margin-bottom: 0.25rem; }
+.mt-2 { margin-top: 0.5rem; }
+
+.resume-container {
+  max-width: $max-width;
+  margin: 32px auto;
+  padding: 48px;
+  background: $paper-color;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  min-height: 100vh;
+  box-sizing: border-box;
+  
+  @media print {
+    margin: 0;
+    padding: 20px 40px;
+    box-shadow: none;
+    max-width: 100%;
+    min-height: auto;
+  }
+
+  @media (max-width: 768px) {
+    margin: 0;
+    padding: 16px;
+    width: 100%;
+  }
+}

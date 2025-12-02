@@ -1,5 +1,5 @@
 <template>
-  <div class="socialInfo">
+  <div class="skill-list">
     <div class="title">相关技能</div>
     <ul>
       <li>
@@ -42,42 +42,45 @@
 </template>
 <script setup></script>
 <style lang="scss" scoped>
-span.mx-1 {
-  margin: 0 0.25rem /* 4px */;
-}
-
-span.ml-1 {
-  margin-left: 0.25rem /* 4px */;
-}
-
-span.mr-1 {
-  margin-right: 0.25rem /* 4px */;
-}
-.socialInfo {
-  width: 780px;
+.skill-list {
+  width: 100%;
   margin: 0 auto;
+
   .title {
-    color: #404040;
-    font-size: 18px;
-    font-weight: 600;
+    color: $text-primary;
+    font-size: 20px;
+    font-weight: 700;
     text-align: left;
-    border-bottom: 2px solid #404040;
-    line-height: 32px;
-    margin: 8px 0 4px;
+    border-bottom: 2px solid $border-color;
+    line-height: 1.5;
+    margin: 24px 0 16px;
+    padding-bottom: 8px;
   }
+
   ul {
     margin: 0;
-    width: calc(100% - 20px);
     padding-inline-start: 20px;
+
     li {
-      color: #404040;
+      color: $text-secondary;
       font-size: 15px;
       font-weight: 400;
       text-align: left;
-      line-height: 24px;
-      span {
-        color: #000;
+      line-height: 1.8;
+      margin-bottom: 8px;
+
+      &::marker {
+        color: $primary-color;
+      }
+
+      strong {
+        color: $text-primary;
         font-weight: 600;
+      }
+
+      span {
+        color: $text-primary;
+        font-weight: 500;
       }
     }
   }

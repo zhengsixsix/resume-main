@@ -6,14 +6,18 @@
 
 <style lang="scss" scoped>
 .introduction {
-  width: 780px;
-  letter-spacing: 1px;
+  width: 100%;
+  letter-spacing: 0.5px;
   display: block;
-  margin: 12px auto;
-  text-align: left;
-  font-size: 14px;
+  margin: 0 0 32px;
+  text-align: justify;
+  font-size: 15px;
   font-weight: 400;
-  padding: 0;
-  line-height: 24px;
+  color: $text-secondary;
+  padding: 20px 24px;
+  line-height: 1.75;
+  background: rgba($primary-color, 0.04);
+  border-left: 4px solid $primary-color;
+  border-radius: 0 4px 4px 0;
 }
 </style>

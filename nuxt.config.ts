@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  css: ['~/assets/css/main.scss'],
   app: {
     buildAssetsDir: "static", //修改站点资产的文件夹名称，默认是_nuxt
     head: {
@@ -14,4 +15,13 @@ export default defineNuxtConfig({
   devServer: {
     port: 3001,
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "~/assets/css/variables.scss" as *;'
+        }
+      }
+    }
+  }
 });

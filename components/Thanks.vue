@@ -7,23 +7,26 @@
 <script setup lang="ts"></script>
 <style lang="scss" scoped>
 .thanks {
-  width: 780px;
+  width: 100%;
   margin: 0 auto;
+  
   .title {
-    color: #404040;
-    font-size: 18px;
-    font-weight: 600;
+    color: $text-primary;
+    font-size: 20px;
+    font-weight: 700;
     text-align: left;
-    border-bottom: 2px solid #404040;
-    line-height: 32px;
-    margin: 8px 0 4px;
+    border-bottom: 2px solid $border-color;
+    line-height: 1.5;
+    margin: 24px 0 16px;
+    padding-bottom: 8px;
   }
+  
   .item {
-    color: #404040;
+    color: $text-secondary;
     font-size: 15px;
     font-weight: 400;
     text-align: left;
-    line-height: 24px;
+    line-height: 1.8;
   }
 }
 </style>

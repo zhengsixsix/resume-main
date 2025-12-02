@@ -19,19 +19,11 @@
   </div>
 </template>
 <script setup>
-import { defineComponent } from "vue";
 import {
   MailOutlined,
   PhoneOutlined,
   WechatOutlined,
 } from "@ant-design/icons-vue";
-defineComponent({
-  components: {
-    MailOutlined,
-    PhoneOutlined,
-    WechatOutlined,
-  },
-});
 </script>
 <style lang="scss" scoped>
 .info {
@@ -39,35 +31,50 @@ defineComponent({
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
-  margin: 0 auto 16px;
-  width: 780px;
+  gap: 12px;
+  margin-bottom: 32px;
+  width: 100%;
+
   .title {
-    color: #555;
-    font-size: 24px;
-    font-weight: 600;
+    color: $text-primary;
+    font-size: 32px;
+    font-weight: 700;
     text-align: center;
+    letter-spacing: -0.5px;
   }
+
   .titleSub {
-    color: #666;
-    font-size: 14px;
+    color: $text-secondary;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
-    display: block;
   }
+
   .contact {
+    margin-top: 8px;
     font-weight: 400;
-    color: #666;
+    color: $text-light;
     font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 24px;
+    flex-wrap: wrap;
+
     .item {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
+      transition: color 0.2s;
+
+      &:hover {
+        color: $primary-color;
+      }
+      
+      .anticon {
+        font-size: 16px;
+      }
     }
   }
 }

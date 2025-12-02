@@ -330,15 +330,19 @@
 <script setup></script>
 <style lang="scss" scoped>
 .container {
-  border: 1px solid rgb(208, 215, 222);
+  border: 1px solid $border-color;
   border-radius: 6px;
   padding: 8px 0;
-  width: 760px;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto 24px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
 
   .graphWrap {
-    width: 50%;
+    flex: 1;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -348,7 +352,7 @@
 .left {
   .header {
     font: 600 18px "Segoe UI", Ubuntu, Sans-Serif;
-    color: #2f80ed;
+    color: $primary-color;
     animation: fadeInAnimation 0.8s ease-in-out forwards;
   }
 

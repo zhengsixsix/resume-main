@@ -54,62 +54,78 @@ const workList = [
 </script>
 <style lang="scss" scoped>
 .work {
-  width: 780px;
+  width: 100%;
   margin: 0 auto;
+  
   .title {
-    color: #404040;
-    font-size: 18px;
-    font-weight: 600;
+    color: $text-primary;
+    font-size: 20px;
+    font-weight: 700;
     text-align: left;
-    border-bottom: 2px solid #404040;
-    line-height: 32px;
-    margin: 8px 0 4px;
+    border-bottom: 2px solid $border-color;
+    line-height: 1.5;
+    margin: 24px 0 16px;
+    padding-bottom: 8px;
   }
+
   .company {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 10px 0;
+    margin-bottom: 24px;
+    
     .row1 {
       width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      color: #404040;
+      color: $text-primary;
+      margin-bottom: 4px;
+      
       .name {
         font-size: 18px;
-        line-height: 32px;
+        line-height: 1.5;
         font-weight: 700;
       }
+      
       .time {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.5;
+        font-weight: 500;
+        color: $text-secondary;
       }
     }
+
     .row2 {
-      color: #404040;
+      color: $text-secondary;
       width: 100%;
       display: flex;
       justify-content: flex-start;
       align-items: center;
       gap: 16px;
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 32px;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 8px;
     }
+
     ul {
       margin: 0;
-      width: calc(100% - 20px);
-      padding-inline-start: 20px;
+      padding-inline-start: 18px;
+      
       li {
-        color: #404040;
+        color: $text-secondary;
         font-size: 15px;
         font-weight: 400;
         text-align: left;
-        line-height: 24px;
+        line-height: 1.6;
+        margin-bottom: 4px;
+        
+        &::marker {
+          color: $primary-color;
+        }
       }
     }
   }

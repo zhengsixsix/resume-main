@@ -1,13 +1,15 @@
 <template>
-  <PersonInfo />
-  <CommitGraph />
-  <Introduction />
-  <SocialInfo />
-  <Educational />
-  <SkillList />
-  <ProjectExperience />
-  <WorkExperience />
-  <Thanks />
+  <div class="resume-container">
+    <PersonInfo />
+    <CommitGraph />
+    <Introduction />
+    <SocialInfo />
+    <Educational />
+    <SkillList />
+    <ProjectExperience />
+    <WorkExperience />
+    <Thanks />
+  </div>
 </template>
 <script setup lang="ts">
 import PersonInfo from "../components/PersonInfo.vue";
